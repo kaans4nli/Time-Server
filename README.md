@@ -1,5 +1,5 @@
 # Time-Server
-A simple time server that takes a time request from a client using “telnet” console command on a Linux machine.
+A simple time server that takes a time request from a client using “telnet” console command on a Linux machine. 
 Server will basically receive date requests, use “date” command to get correct output and send this output to the client.
 
 You should run time_server.c then, write 'telnet localhost 60000' in another terminal. 60000 is a port number that defined in the file. Finally, you can use the date command in your terminal.
